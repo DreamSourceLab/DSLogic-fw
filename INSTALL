@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+INSTALL
+-------------------------------------------------------------------------------
+
+Requirements
+------------
+
+ - git
+ - make
+ - autoconf >= 2.63
+ - automake >= 1.11
+ - sdcc (>= 2.9.0)
+
+Notes:
+
+ - In order to build DSLogic-fw you need the 'sdcc' compiler (>= 2.9.0).
+   On Debian you can install it via:
+
+     $ apt-get install sdcc
+
+
+Building and installing
+-----------------------
+
+ $ ./autogen.sh
+ $ ./configure
+ $ make
+
+For installing DSLogic-fw:
+
+ $ make install
+
+The generated *.fw files are installed into /usr/local/share/DSLogic-fw.
+
+You can override the install location like this:
+
+ $ ./configure --prefix=/usr
