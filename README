@@ -2,8 +2,9 @@
 README
 -------------------------------------------------------------------------------
 
-DSLogic-fw is an Open-source firmware for DSLogic
+DSLogic-fw is an Open-source firmware for DSLogic, and is built based on fx2lafw of sigrok project(www.sigrok.org). Many thanks to the original work of the sigrok guys.
 DSLogic project: www.dreamsourcelab.com
+
 
 Status
 ------
