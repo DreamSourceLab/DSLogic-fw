@@ -1,6 +1,8 @@
 /*
  * This file is part of the DSLogic-fw project.
  *
+ * Copyright (C) 2012 Uwe Hermann <uwe@hermann-uwe.de>
+ * Copyright (C) 2012 Joel Holdsworth <joel@airwebreathe.org.uk>
  * Copyright (C) 2014 DreamSourceLab <support@dreamsourcelab.com>
  *
  * This program is free software; you can redistribute it and/or modify
